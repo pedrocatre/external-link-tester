@@ -3,6 +3,8 @@
 Testing external links of your application, like documentation and partner website links, is important since if they break or change you'll probably only find out through your users.
 You can use external link tester in your CI environment to make sure the external links your application uses are not broken.
 
+![Process listing](https://github.com/unitech/pm2/raw/master/pres/pm2-list.png)
+
 ## Install
 
 Run `npm install external-link-tester --save-dev`
