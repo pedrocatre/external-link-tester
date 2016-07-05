@@ -1,0 +1,29 @@
+{
+  "name": "external-link-tester",
+  "version": "0.0.2",
+  "description": "Test your front-end's external URLs",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "test",
+    "external",
+    "url"
+  ],
+  "author": "Pedro Catré",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://opensource.org/licenses/mit-license.php"
+    }
+  ],
+  "dependencies": {
+    "bluebird": "^3.0.5",
+    "chalk": "^1.1.1",
+    "lodash": "^3.10.1",
+    "mkdirp": "^0.5.1",
+    "request": "^2.65.0",
+    "xmlbuilder": "^4.0.0"
+  }
+}
