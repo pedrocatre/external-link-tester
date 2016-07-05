@@ -19,7 +19,8 @@ The output is a JUnit report. You can specify the path you want the report to go
 
 Checkout extLinksTester.example.config.js for a configuration example.
 
-TODO
+## TODO
+
 - [ ] use timeout
 - [ ] be able to specify a path and look for external links
 - [ ] be able to specify exclude links
