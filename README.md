@@ -1,7 +1,9 @@
 # External Link Tester
 
 Testing external links of your application, like documentation and partner website links, is important since if they break or change you'll probably only find out through your users.
-You can use external link tester in your CI environment to make sure the external links your application uses are not broken.
+You can use **External Link Tester** in your CI system to make sure the external links your application uses are not broken.
+
+Just add the links you which to test to the configuration file, have your CI system run the package and point it to the resulting JUnit report.
 
 ![External Link Tester](https://github.com/pedrocatre/external-link-tester/raw/master/screenshots/external-link-tester.gif)
 
