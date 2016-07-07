@@ -16,10 +16,36 @@ Example: `node app.js ./extLinksTester.example.config.js`
 
 The output is a JUnit report. You can specify the path you want the report to go to in `outputFile` configuration property in the configuration file.
 
+When you install it in your project assuming, for example, you created a config file called *extLinksTester.config.js* in the root you then run the command:
+
+`node node_modules/external-link-tester/app.js ../../extLinksTester.config.js`
+
 
 ## Configuration
 
 Checkout extLinksTester.example.config.js for a configuration example.
+The properties you should defined in this file are:
+
+* The path to the **outputFile**
+* And an array of **externalLinks** with the timeout value when after which the application considers the link is down.
+
+Like so:
+
+```javascript
+module.exports = {
+    outputFile: 'results/links-test-result.xml',
+    externalLinks: [
+        {
+            url: 'http://www.google.com111',
+            timeout: 3000
+        },
+        {
+            url: 'https://en.wikipedia.org/wiki/List_of_HTTP_status_codes',
+            timeout: 3000
+        }
+    ]
+};
+```
 
 ## TODO
 
