@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 var ExternalLinksTester = require('./lib/externalLinksTester'),
     _ = require('lodash'),
     chalk = require('chalk');
