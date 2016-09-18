@@ -1,4 +1,4 @@
-# External Link Tester
+# External Link Tester [![Build Status](https://travis-ci.org/pedrocatre/external-link-tester.svg?branch=master)](https://travis-ci.org/pedrocatre/external-link-tester)
 
 Testing external links of your application, like documentation and partner website links, is important since if they break or change you'll probably only find out through your users.
 You can use **External Link Tester** in your CI system to make sure the external links your application uses are not broken.
@@ -51,7 +51,7 @@ module.exports = {
 
 ## Run tests
 
-`ava test.js`
+`npm test`
 
 ## TODO
 

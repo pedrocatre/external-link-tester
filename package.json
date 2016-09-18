@@ -4,7 +4,7 @@
   "description": "Test your front-end's external URLs",
   "main": "app.js",
   "scripts": {
-    "test": "test && ava"
+    "test": "ava test.js"
   },
   "keywords": [
     "test",
