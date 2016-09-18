@@ -55,9 +55,7 @@ test('cli', async t => {
 
 test('cli2', async t => {
     await execa.shell('./app.js').catch(error => {
-
-        // TODO should be stderr
-        t.truthy(error.stdout.includes('You need to provide a path to the config file'));
+        t.truthy(error.stderr.includes('You need to provide a path to the config file'));
     });
 
 });
