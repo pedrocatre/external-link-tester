@@ -9,14 +9,19 @@ Just add the links you which to test to the configuration file, have your CI sys
 
 ## Install
 
-Run `npm install external-link-tester --save-dev`
+Run `npm install --global external-link-tester`
 
 ## Usage
 
 Pass configuration file as a command line parameter.
-Example: `node app.js ./extLinksTester.example.config.js`
+
+Example: `external-link-tester ./extLinksTester.example.config.js`
 
 The output is a JUnit report. You can specify the path you want the report to go to in `outputFile` configuration property in the configuration file.
+
+## Usage without global install
+
+Example: `node app.js ./extLinksTester.example.config.js`
 
 When you install it in your project assuming, for example, you created a config file called *extLinksTester.config.js* in the root you then run the command:
 
