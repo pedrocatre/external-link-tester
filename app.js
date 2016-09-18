@@ -2,7 +2,8 @@
 
 var ExternalLinksTester = require('./lib/externalLinksTester'),
     _ = require('lodash'),
-    chalk = require('chalk');
+    chalk = require('chalk'),
+    path = require('path');
 
 var pathToConfigFile = process.argv[2];
 
@@ -13,7 +14,7 @@ if(_.isUndefined(pathToConfigFile)) {
     process.exit(1);
 }
 
-config = require(__dirname + '/' + pathToConfigFile);
+config = require(process.cwd() + '/' + pathToConfigFile);
 new ExternalLinksTester({
     externalLinks: config.externalLinks,
     outputFile: config.outputFile

@@ -1,6 +1,6 @@
 {
   "name": "external-link-tester",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Test your front-end's external URLs",
   "main": "app.js",
   "bin": "app.js",

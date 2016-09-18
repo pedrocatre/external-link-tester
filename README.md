@@ -13,7 +13,7 @@ Run `npm install --global external-link-tester`
 
 ## Usage
 
-Pass name of the configuration file as a command line parameter.
+Pass name of the configuration file as a command line parameter. Note the configuration file needs to be in the root directory of your application.
 
 Example: `external-link-tester extLinksTester.example.config.js`
 
@@ -22,6 +22,10 @@ The output is a JUnit report. You can specify the path you want the report to go
 ## Usage without global install
 
 Example: `node app.js extLinksTester.example.config`
+
+When you install it in your project assuming, for example, you created a config file called extLinksTester.config.js in the root you then run the command:
+
+`node node_modules/external-link-tester/app.js extLinksTester.config.js`
 
 ## Configuration
 
