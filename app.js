@@ -3,7 +3,13 @@
 var ExternalLinksTester = require('./lib/externalLinksTester'),
     _ = require('lodash'),
     chalk = require('chalk'),
-    path = require('path');
+    figlet = require('figlet');
+
+console.log(
+    chalk.blue(
+        figlet.textSync('External Link Tester', { horizontalLayout: 'full' })
+    )
+);
 
 var pathToConfigFile = process.argv[2];
 
