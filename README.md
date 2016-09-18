@@ -49,6 +49,10 @@ module.exports = {
 };
 ```
 
+## Run tests
+
+`ava test.js`
+
 ## TODO
 
 - [ ] use timeout
