@@ -30,10 +30,10 @@ When you install it in your project assuming, for example, you created a config 
 ## Configuration
 
 Checkout extLinksTester.example.config.js for a configuration example.
-The properties you should defined in this file are:
+The properties you should define in this file are:
 
 * The path to the **outputFile**
-* And an array of **externalLinks** with the timeout value when after which the application considers the link is down.
+* And an array of **externalLinks** with the timeout value after which the application considers the link is down.
 
 Like so:
 
