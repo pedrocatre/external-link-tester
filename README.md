@@ -13,7 +13,7 @@ Run `npm install --global external-link-tester`
 
 ## Usage
 
-Pass name of the configuration file as a command line parameter. Note the configuration file needs to be in the root directory of your application.
+Pass the name of the configuration file as a command line parameter. Note the configuration file needs to be in the root directory of your application.
 
 Example: `external-link-tester extLinksTester.example.config.js`
 
